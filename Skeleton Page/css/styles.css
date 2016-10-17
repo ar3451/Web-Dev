@@ -1,19 +1,23 @@
-h1{
-    color:blue;
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
-ol{
-    text-align: center;
-}
-p{
+h1 {
     color: blue;
     text-align: center;
 }
-img.firstImg{
-   display: block;
+
+h2 {
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+}
+
+p {
+    color: blue;
+    text-align: center;
+}
+
+img.firstImg {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding: inherit;
@@ -21,6 +25,7 @@ img.firstImg{
     max-width: 300px;
     height: 300px;
 }
-.wrapper{
-    background-color: black;
+
+.wrapper {
+    background-color: skyblue;
 }
