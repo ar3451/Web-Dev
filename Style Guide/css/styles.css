@@ -1,0 +1,32 @@
+h1{
+    color:blue; 
+    font-size:48px;
+    text-align: center
+}
+
+
+ul{
+    font-size: 24px;
+}
+.first{
+    color:#042e72;
+}
+
+.second{
+    color: #8c0754;
+}
+.third{
+    color: #fce919;
+}
+.fourth{
+    color: #111111
+}
+.fifth{
+    color: #18ad42
+}
+.primary{
+    font-family: verdana, geneva, sans-serif;
+}
+.secondary{
+    font-family: lucida Sans unicode, lucida grande, sans-serif;
+}
