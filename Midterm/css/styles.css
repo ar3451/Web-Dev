@@ -1,31 +1,90 @@
+.header img {
+    position: center;
+    height: 50px;
+    width: 50px;
+}
+
+.header h1 {
+    position: center;
+}
+
 h1 {
-    color: blue;
+    color: #72042e;
     text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 300%;
 }
 
 h2 {
+    color: #72042e;
     text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 300%;
 }
 
 ol {
     text-align: center;
+    list-style-position: inside;
+    color: #042e72;
+    font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 125%;
 }
 
 p {
-    color: blue;
+    color: #042e72;
     text-align: center;
+    font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 125%;
 }
 
 img.imgs {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .wrapper {
-    background-color: skyblue;
+    background-color: burlywood;
 }
 
 .vids {
-    text-align: center
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+div.imgs2 {
+    text-align: justify;
+}
+
+div img {
+    display: inline-block;
+    width: 620px;
+    height: 400px;
+    max-height: auto;
+    max-width: auto;
+}
+
+div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+img.cap {
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: 300px;
+    max-height: 25px;
+    max-width: auto;
+}
+
+div.buttons{
+    text-align: center;
 }
