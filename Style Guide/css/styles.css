@@ -9,20 +9,45 @@ ul{
     font-size: 24px;
 }
 .first{
-    color:#042e72;
+    color:lightblue;
 }
 
 .second{
-    color: #8c0754;
+    color: lightgrey;
 }
 .third{
-    color: #fce919;
+    color: lightgoldenrodyellow;
 }
 .fourth{
-    color: #111111
+    color: lightcoral;
 }
 .fifth{
-    color: #18ad42
+    color: lightpink;
+}
+
+.sixth{
+    color: pink;
+}
+.seventh{
+    color: lightskyblue;
+}
+.eigth{
+    color: ghostwhite;
+}
+.ninth{
+    color: burlywood
+}
+.tenth{
+    color: lightsteelblue;
+}
+.eleventh{
+    color: lightsalmon;
+}
+twelfth{
+    color: #72042e;
+}
+.thirteenth{
+    color: #042e72;
 }
 .primary{
     font-family: verdana, geneva, sans-serif;

@@ -45,10 +45,6 @@ img.imgs {
     height: auto;
 }
 
-.wrapper {
-    background-color: burlywood;
-}
-
 .vids {
     text-align: center;
     display: block;
@@ -85,6 +81,6 @@ img.cap {
     max-width: auto;
 }
 
-div.buttons{
+div.buttons {
     text-align: center;
 }
