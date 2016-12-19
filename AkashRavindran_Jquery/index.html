@@ -1,0 +1,31 @@
+<!-- I'm not too comfortable with Jquery yet so I'll need some more time to mess around with it-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({
+                    left: '10px',
+                    height: '+=10px',
+                    width: '+=10px'
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <button>Grow</button>
+    <br>
+    <br>
+
+    <div style="background:blue;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+
+</html>

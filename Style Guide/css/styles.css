@@ -1,0 +1,57 @@
+h1{
+    color:blue; 
+    font-size:48px;
+    text-align: center
+}
+
+
+ul{
+    font-size: 24px;
+}
+.first{
+    color:lightblue;
+}
+
+.second{
+    color: lightgrey;
+}
+.third{
+    color: lightgoldenrodyellow;
+}
+.fourth{
+    color: lightcoral;
+}
+.fifth{
+    color: lightpink;
+}
+
+.sixth{
+    color: pink;
+}
+.seventh{
+    color: lightskyblue;
+}
+.eigth{
+    color: ghostwhite;
+}
+.ninth{
+    color: burlywood
+}
+.tenth{
+    color: lightsteelblue;
+}
+.eleventh{
+    color: lightsalmon;
+}
+twelfth{
+    color: #72042e;
+}
+.thirteenth{
+    color: #042e72;
+}
+.primary{
+    font-family: verdana, geneva, sans-serif;
+}
+.secondary{
+    font-family: lucida Sans unicode, lucida grande, sans-serif;
+}

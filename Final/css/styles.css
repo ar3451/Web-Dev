@@ -1,0 +1,100 @@
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: "AceAttorney";
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: sandybrown;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: black !important;
+    text-align: center;
+    font-family: "AceAttorney" !important;
+    font-size: 400% !important;
+    font-weight: bold !important;
+}
+
+.border {
+    width: 1000px;
+    height: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border: 20px ridge sandybrown;
+    background-color: lightgoldenrodyellow;
+}
+
+@font-face {
+    font-family: 'AceAttorney';
+    src: url("../fonts/Ace-Attorney.ttf");
+}
+
+.title {
+    text-align: center;
+    font-family: "AceAttorney";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.bulk {
+    text-align: center;
+    font-family: "AceAttorney";
+    font-size: 25px;
+}
+
+.vids {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*Works Cited:
+        https://en.wikipedia.org/wiki/Ace_Attorney
+        https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney        https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney_%E2%88%92_Justice_for_All        https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney_%E2%88%92_Trials_and_Tribulations
+        https://en.wikipedia.org/wiki/Apollo_Justice:_Ace_Attorney
+        https://en.wikipedia.org/wiki/Ace_Attorney_Investigations:_Miles_Edgeworth
+        https://en.wikipedia.org/wiki/Ace_Attorney_Investigations_2        https://en.wikipedia.org/wiki/Professor_Layton_vs._Phoenix_Wright:_Ace_Attorney https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney_%E2%88%92_Dual_Destinies        https://en.wikipedia.org/wiki/Dai_Gyakuten_Saiban:_Naruhod%C5%8D_Ry%C5%ABnosuke_no_B%C5%8Dken        https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney_%E2%88%92_Spirit_of_Justice
+        http://www.w3schools.com/
+        http://www.w3schools.com/css/default.asp
+        http://www.w3schools.com/bootstrap/default.asp
+        http://www.w3schools.com/js/default.asp
+        http://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp
+        http://www.w3schools.com/bootstrap/bootstrap_ref_js_dropdown.asp
+        http://www.w3schools.com/bootstrap/bootstrap_ref_comp_navs.asp
+        http://www.dafont.com/ace-attorney.font
+        http://www.w3schools.com/js/js_htmldom_css.asp
+        http://www.w3schools.com/jquery/jquery_ref_events.asp
+        */
