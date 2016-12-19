@@ -5,6 +5,8 @@ li {
 li a {
     display: block;
     color: white;
+    font-family: "AceAttorney";
+    font-size: 20px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,9 +35,11 @@ body {
 }
 
 h1 {
-    color: orange;
+    color: black !important;
     text-align: center;
-    font-size: 200%;
+    font-family: "AceAttorney" !important;
+    font-size: 400% !important;
+    font-weight: bold !important;
 }
 
 .border {
@@ -75,6 +79,7 @@ h1 {
     max-width: 100%;
     height: auto;
 }
+
 
 /*Works Cited:
         https://en.wikipedia.org/wiki/Ace_Attorney
